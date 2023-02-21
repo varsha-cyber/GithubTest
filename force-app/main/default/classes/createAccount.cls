@@ -5,6 +5,7 @@ public with sharing class createAccount {
          account acc= new account();
          acc.name='Isabella';
         acc.Industry= 'Banking';
+        acc.phone='45678392';
          mylist.add(acc);
          insert mylist;
 
