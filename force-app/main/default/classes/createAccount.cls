@@ -4,6 +4,7 @@ public with sharing class createAccount {
         list<account>mylist= new list<account>();
          account acc= new account();
          acc.name='Isabella';
+        acc.Industry= 'banking';
          mylist.add(acc);
          insert mylist;
 
